@@ -15,6 +15,8 @@
 		043BC5F62197F37B0036F895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BC5F52197F37B0036F895 /* main.m */; };
 		043BC6002197F37B0036F895 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BC5FF2197F37B0036F895 /* testTests.m */; };
 		043BC60B2197F37B0036F895 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BC60A2197F37B0036F895 /* testUITests.m */; };
+		0485ED2821AA5EBC00A0EC32 /* world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0485ED2721AA5EBC00A0EC32 /* world.jpg */; };
+		04F1C7FA21B0457200B1D186 /* crossLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1C7F921B0457200B1D186 /* crossLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		043BC6062197F37B0036F895 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BC60A2197F37B0036F895 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		043BC60C2197F37B0036F895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0485ED2721AA5EBC00A0EC32 /* world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = world.jpg; sourceTree = "<group>"; };
+		04F1C7F821B0457200B1D186 /* crossLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crossLabel.h; sourceTree = "<group>"; };
+		04F1C7F921B0457200B1D186 /* crossLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crossLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		043BC5DA2197F3790036F895 = {
 			isa = PBXGroup;
 			children = (
+				0485ED2721AA5EBC00A0EC32 /* world.jpg */,
 				043BC5E52197F3790036F895 /* test */,
 				043BC5FE2197F37B0036F895 /* testTests */,
 				043BC6092197F37B0036F895 /* testUITests */,
@@ -101,6 +107,8 @@
 		043BC5E52197F3790036F895 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				04F1C7F821B0457200B1D186 /* crossLabel.h */,
+				04F1C7F921B0457200B1D186 /* crossLabel.m */,
 				043BC5E62197F3790036F895 /* AppDelegate.h */,
 				043BC5E72197F3790036F895 /* AppDelegate.m */,
 				043BC5E92197F3790036F895 /* ViewController.h */,
@@ -237,6 +245,7 @@
 			files = (
 				043BC5F32197F37B0036F895 /* LaunchScreen.storyboard in Resources */,
 				043BC5F02197F37B0036F895 /* Assets.xcassets in Resources */,
+				0485ED2821AA5EBC00A0EC32 /* world.jpg in Resources */,
 				043BC5EE2197F3790036F895 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043BC5EB2197F3790036F895 /* ViewController.m in Sources */,
+				04F1C7FA21B0457200B1D186 /* crossLabel.m in Sources */,
 				043BC5F62197F37B0036F895 /* main.m in Sources */,
 				043BC5E82197F3790036F895 /* AppDelegate.m in Sources */,
 			);
